@@ -1,0 +1,6 @@
+.buttons__group {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 70%;
+}

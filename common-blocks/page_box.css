@@ -1,0 +1,7 @@
+.page_box {
+    margin: 0 48px 80px 48px;
+}
+
+.page_box:first-child {
+    margin: 0 48px 50px 48px;
+}

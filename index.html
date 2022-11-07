@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт верстальщика Евгения Надточеева</title>
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+<header class="top-menu">
+  <nav class="top-menu__menu">
+    <ul class="top-menu__list">
+      <li class="top-menu__list-item page_list"><a class="top-menu__link link_hover" href="#uslugi">Услуги</a></li>
+      <li class="top-menu__list-item page_list"><a class="top-menu__link link_hover" href="#portfolio">Портфолио</a>
+      </li>
+      <li class="top-menu__list-item page_list"><a class="top-menu__link link_hover" href="#stoimost">Стоимость</a></li>
+    </ul>
+  </nav>
+  <div class="top-menu__call">
+    <a class="top-menu__telephone link_hover" href="tel:79200808700">+7 (920) 080-87-00</a>
+    <button class="button button_type_transparent">Заказать звонок</button>
+  </div>
+</header>
+
+<main class="content">
+
+  <section class="cover page_box">
+    <div class="cover__left-column">
+      <h1 class="cover__header">Евгений Надточеев</h1>
+      <p class="cover__description">Frontend-разработчик и верстальщик</p>
+      <button class="button button_type_blue">Узнать больше</button>
+    </div>
+    <div class="cover__right-column">
+      <img class="cover__image" src="vendor/images/Изображение%20с%20человеком/man.png" alt='Фотография Евгения Надточеева'>
+    </div>
+  </section>
+
+  <section id="uslugi" class="services page_box">
+    <h2 class="serices__header">Что я делаю</h2>
+    <ul class="services__list">
+      <li class="services__item page_list">
+        <img alt='Иллюстрация верстки' class="services__image" src="vendor/images/icons/1.png">
+        <p class="services__caption">Верстка лендинг-страниц и сайтов любой сложности</p>
+      </li>
+      <li class="services__item page_list">
+        <img alt='Иллюстрация адаптивности сайта' class="services__image" src="vendor/images/icons/2.png">
+        <p class="services__caption">Адаптивная верстка под все браузеры и устройства</p>
+      </li>
+      <li class="services__item page_list">
+        <img alt='Иллюстрация программирования на Javascript' class="services__image" src="vendor/images/icons/3.png">
+        <p class="services__caption">Frontend-разработка и программирование</p>
+      </li>
+      <li class="services__item page_list">
+        <img alt='Иллюстрация доработки сайта' class="services__image" src="vendor/images/icons/4.png">
+        <p class="services__caption">Исправление и доработка существующей верстки</p>
+      </li>
+    </ul>
+    <button class="button button_type_transparent">Узнать стоимость</button>
+  </section>
+
+  <section id="portfolio" class="examples page_box">
+    <h2 class="examples__header">Примеры моих работ</h2>
+    <ul class="examples__list">
+      <li class="examples__item page_list">
+        <a class="examples__link link_hover-block" href="#">
+          <img alt='Логотип с целующимися птичками' class="examples__image" src="vendor/images/Примеры%20работ/e1.png">
+          <p class="examples__caption">Сайт психолога Веры Антоновой</p>
+        </a>
+      </li>
+      <li class="examples__item page_list">
+        <a class="examples__link link_hover-block" href="#">
+          <img alt='Логотип с детской одеждой' class="examples__image" src="vendor/images/Примеры%20работ/e2.png">
+          <p class="examples__caption">Сайт магазина детской одежды</p>
+        </a>
+      </li>
+      <li class="examples__item page_list">
+        <a class="examples__link link_hover-block" href="#">
+          <img alt='Логотип с рыболовными снастями' class="examples__image" src="vendor/images/Примеры%20работ/e3.png">
+          <p class="examples__caption">Сайт магазина "Рыболов"</p>
+        </a>
+      </li>
+    </ul>
+    <button class="button button_type_transparent">Заказать проект</button>
+  </section>
+
+  <section class="proposal" id="stoimost">
+    <h2 class="proposal__header">Адаптивная верстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа*</h2>
+    <p class="proposal__caption">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <nav class="footer__menu">
+    <ul class="footer__list">
+      <li class="footer__list-item page_list"><a class="footer__link link_hover" href="#uslugi">Услуги</a></li>
+      <li class="footer__list-item page_list"><a class="footer__link link_hover" href="#portfolio">Портфолио</a></li>
+      <li class="footer__list-item page_list"><a class="footer__link link_hover" href="#stoimost">Стоимость</a></li>
+    </ul>
+  </nav>
+  <div class="footer__contacts">
+    <a class="footer__contact link_hover" href="mailto:jamesnumart@gmail.com">jamesnumart@gmail.com</a>
+    <a class="footer__contact link_hover" href="tel:79200808700">+7 (920) 080-87-00</a>
+  </div>
+  <div class="footer__contact-with-me">
+    <button class="button button_type_transparent">Заказать звонок</button>
+    <ul class="social-networks">
+      <li class="social-networks__item page_list"><a class="social-networks__link link_hover-block" href="#"><img
+        class="social-networks__icon" alt='Иконка Facebook' src="vendor/images/Социальные%20сети/fb.png"></a></li>
+      <li class="social-networks__item page_list"><a class="social-networks__link link_hover-block" href="#"><img
+        class="social-networks__icon" alt='Иконка Vkontakte' src="vendor/images/Социальные%20сети/vk.png"></a></li>
+      <li class="social-networks__item page_list"><a class="social-networks__link link_hover-block" href="#"><img
+        class="social-networks__icon" alt='Иконка Youtube' src="vendor/images/Социальные%20сети/you.png"></a></li>
+      <li class="social-networks__item page_list"><a class="social-networks__link link_hover-block" href="#"><img
+        class="social-networks__icon" alt='Иконка Telegram' src="vendor/images/Социальные%20сети/telegram.png"></a></li>
+      <li class="social-networks__item page_list"><a class="social-networks__link link_hover-block" href="#"><img
+        class="social-networks__icon" alt='Иконка Instagram' src="vendor/images/Социальные%20сети/inst.png"></a></li>
+    </ul>
+  </div>
+
+</footer>
+<div class="pop-up">
+  <div class="pop-up__container">
+    <h2 class="pop-up__header">Привет!</h2>
+    <p class="pop-up__description">Ты действительно хочешь заказать у меня разработку сайта?</p>
+    <div class="buttons__group">
+      <button class="button button_type_blue pop-up__button_state_yes">Перейти</button>
+      <button class="button button_type_transparent pop-up__button_state_no">Нет</button>
+    </div>
+  </div>
+</div>
+<script src="pages/script.js"></script>
+</body>
+</html>

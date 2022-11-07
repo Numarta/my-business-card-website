@@ -1,0 +1,5 @@
+.link_hover-block:hover {
+    opacity: 0.9;
+    max-width: 105%;
+    box-sizing: border-box;
+}

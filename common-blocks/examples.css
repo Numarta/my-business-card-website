@@ -1,0 +1,7 @@
+.examples {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 0 48px 60px 48px;
+    margin-bottom: 60px;
+}

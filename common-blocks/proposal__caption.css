@@ -1,0 +1,10 @@
+.proposal__caption {
+    text-align: left;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 0 48px 80px 48px;
+    margin: 0;
+}

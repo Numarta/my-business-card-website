@@ -1,0 +1,8 @@
+.footer__contact-with-me {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+.top-menu__call {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
